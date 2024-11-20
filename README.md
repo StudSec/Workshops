@@ -1,8 +1,2 @@
 # Workshops
-This repository contains all files used in the workshops.
-
-- [Introduction](Introduction/README.md)
-
-
-#### Web
-- [Introduction](Web/Introduction/README.md)
+This repository contains all technical files used in the workshops. For previous iterations of the workshop see the `legacy` branch.
