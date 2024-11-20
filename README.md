@@ -1,2 +1,2 @@
 # Workshops
-This repository contains all technical files used in the workshops. For previous iterations of the workshop see the `legacy` branch.
+This repository contains all technical files used in the workshops. For previous iterations of the workshop see the `legacy` branch. The workshops themselves can be found at https://wiki.studsec.nl/books/workshops

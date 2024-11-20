@@ -1,0 +1,120 @@
+/* Base colors */
+:root {
+    --primary-color: #A0FFFF;
+    --secondary-color: #007575;
+    --accent-color: #004040;
+    --background-color: #F0FFFF;
+    --text-color: #003030;
+}
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+/* Centering styles for h2 and p tags in the login screen */
+.centered-text {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text within the element */
+    margin: 0; /* Remove default margins */
+}
+
+
+/* Navbar styling */
+.navbar {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: var(--secondary-color);
+}
+
+/* Content area */
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons and Inputs */
+button, input[type="submit"], input[type="button"] {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: var(--accent-color);
+}
+
+input[type="text"], input[type="file"], input[type="password"] {
+    padding: 8px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid var(--secondary-color);
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+td {
+    background-color: white;
+    color: var(--text-color);
+}
+
+tr:hover {
+    background-color: #e6ffff; /* Light hover effect */
+}
+
